@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome page</h1>
-    <a href="/contact">link to contact</a>
+   
+
 </body>
 </html>
