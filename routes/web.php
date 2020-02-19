@@ -15,10 +15,7 @@ Route::get('/', function () {
 
     $tasks = ['going to the store', 'play games', 'sleep'];
 
-    return view('welcome', [
-        'tasks'=> $tasks,
-        'medi' => request('title')
-    ]);
+    return view('welcome')->withTasks($tasks);
 });
 
 Route::get('/contact', function(){
