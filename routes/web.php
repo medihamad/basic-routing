@@ -11,12 +11,8 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', 'PagesController@home');
 
-    $tasks = ['going to the store', 'play games', 'sleep'];
-
-    return view('welcome')->withTasks($tasks);
-});
 
 Route::get('/contact', function(){
     return view('contact');
